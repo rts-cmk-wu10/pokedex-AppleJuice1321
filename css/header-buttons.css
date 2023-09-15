@@ -1,0 +1,48 @@
+/* LIGHTS - FORM ================================== */
+.blue__light {
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    border: 0.6em solid lightgrey;
+    background-color: blue;
+}
+
+.red__light {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: red;
+}
+
+.yellow__light {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+.green__light {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: green;
+}
+
+/* LIGHTS POSITIONING ================================= */
+
+.lights {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    margin: 1em 0 0 1em;
+    gap: 1em;
+}
+
+.small__lights {
+    display: flex;
+    gap: .5em;
+}

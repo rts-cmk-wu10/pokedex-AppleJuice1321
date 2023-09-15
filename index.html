@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>PokeDex</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- venstre PokeDex-side ============================================= -->
+        <div class="left__pokeDex">
+
+            <section class="lights">
+                <div class="blue__light"></div>
+                <div class="small__lights">
+                    <div class="red__light"></div>
+                    <div class="yellow__light"></div>
+                    <div class="green__light"></div>
+                </div>
+            </section>
+
+            <svg class="scaling-svg" viewBox="0 0 100 40">
+                <polygon points="0 0, 100 0, 100 25, 60 25, 28 38, 0 38" style="fill:red;stroke:black;stroke-width:1" />
+            </svg>
+
+            <div class="screen__container">
+                <div class="left__pokeDex__screenFrame">
+                    <div class="screen__redLights">
+                        <div class="smallRed__lights"></div>
+                        <div class="smallRed__lights"></div>
+                    </div>
+                    <img src="" alt="">
+                    <div class="screen__bottom">
+                        <div class="smallRed__lights__bottom"></div>
+                        <i data-feather="align-justify"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lights__bottom">
+                <div class="bottom__redLights"></div>
+                <div class="bottom__blueLights"></div>
+            </div>
+
+            <footer class="bottom__items">
+                <div class="black__circle"></div>
+                <div class="green__rect"></div>
+                <nav class="navbar__nav">
+                    <!-- bladre rundt -->
+                    <a href="" class="firstPage"><<</a>
+                    <div class="nextNprevious__pages">
+                        <a href="" class="previousPage"><</a>
+                        <a href="" class="nextPage">></a>
+                    </div>
+
+                    <a href="" class="lastPage">>></a>
+                </nav>
+            </footer>
+        </div>
+
+        <!-- PokeDex midderdel ==========================================-->
+        <div class="pokeDex__middlePart">
+            <div class="middlepart__secondDiv"></div>
+        </div>
+
+        <!-- højre PokeDex-side ============================================= -->
+        <!-- Pokemon liste -->
+        <div class="right__pokeDex">
+            <!-- Søgefelt over pokemons og kategorier -->
+        <form>
+            <label>
+                Søg
+                <!-- Kategorier -->
+                <select class="category">
+                    <option class="category__pokemon">Pokemon</option>
+                    <option class="category__types">Types</option>
+                    <option class="category__abilities">Abilities</option>
+                </select>
+                <p class="result"></p>
+                
+                <!-- Søgefelt-->
+                <input class="searchbar" type="search" list="pokemons" class="pokemon__search"
+                    placeholder="Søge efter Pokies">
+                <datalist id="pokemons"></datalist>
+            </label>
+            <button type="submit">Søg</button>
+        </form>
+
+            <svg class="right__pokeDex__shape" viewBox="0 0 100 40">
+                <polygon points="0 0, 38 0, 71 20, 100 20, 100 100, 0 100" style="fill:red;stroke:black;stroke-width:2.2" />
+            </svg>
+            <ul class="name__list"></ul>
+
+        </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+    <script src="./js/pokemon.js" defer></script>
+    <script src="./js/search.js" defer></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+.left__pokeDex__screenFrame {
+    height: 15em;
+    width: 20em;
+    border-radius: .5em .5em .5em 3em;
+    border: 5px solid black;
+    background-color: lightgrey;
+    background: linear-gradient(135def, transparent 45px,);
+}
+
+.screen__container {
+    display: flex;
+    justify-content: center;
+}
+
+.left__pokeDex__screenFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5em;
+}
+
+img {
+    height: 10em;
+    width: 17em;
+    background-color: darkblue;
+}
+
+/* ================================================= */
+.screen__redLights {
+    display: flex;
+    gap: .5em;
+}
+
+.smallRed__lights {
+    height: .6em;
+    width: .6em;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: red;
+}
+
+.screen__bottom {
+    display: flex;
+    gap: 14.5em;
+}
+
+.smallRed__lights__bottom {
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: red;
+}
+
+/* =============================================== */

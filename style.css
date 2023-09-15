@@ -1,0 +1,23 @@
+@import url("./css/pokeDex.css");
+@import url("./css/header-buttons.css");
+@import url("./css/screen.css");
+@import url("./css/loading.css");
+@import url("./css/nav.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em;
+    background-color: lightgrey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

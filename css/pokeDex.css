@@ -1,0 +1,170 @@
+/* LEFT SIDE ======================= */
+.left__pokeDex {
+    height: 35em;
+    width: 25em;
+    border-radius: 1em 0 0.5em 1em;
+    background-color: red;
+    border: 5px solid black;
+}
+
+.left__pokeDex__headerContainer {
+    height: 25.5em;
+    border-radius: 1em 0 0 0;
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 60% 25%, 28% 38%, 0 38%);
+    background-color: black;
+}
+
+.scaling-svg {
+    position: relative;
+    border-radius: 1em 0 0 0;
+}
+
+.left__border {
+    margin: 1em;
+    height: 33em;
+    border: solid black 2px;
+    border-radius: 1em 0 0.5em 1em;
+}
+
+/* ==================================== */
+.lights__bottom {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: .5em;
+    margin-right: 3em;
+}
+
+.bottom__redLights {
+    width: 4em;
+    height: .5em;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10em;
+}
+
+.bottom__blueLights {
+    width: 4em;
+    height: .5em;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10em;
+}
+
+/* ====================================== */
+.bottom__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.black__circle {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.green__rect {
+    height: 5em;
+    width: 10em;
+    background-color: lightgreen;
+    border-radius: .4em;
+}
+
+
+/* NAVIGATION ================================== */
+.navbar__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstPage {
+    display: block;
+    text-decoration: none;
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 1.5em;
+    color: white;
+    background-color: black;
+}
+
+.nextNprevious__pages {
+    display: flex;
+}
+
+.nextPage {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.previousPage {
+    display: block;
+    text-decoration: none;
+    height: 1.5em;
+    width: 4em;
+    color: white;
+    background-color: black;    
+}
+
+.lastPage {
+    display: block;
+    text-decoration: none;
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 1.5em;
+    color: white;
+    background-color: black;
+}
+
+/* RIGHT SIDE ========================= */
+.right__pokeDex {
+    position: relative;
+    margin-top: 15em;
+    height: 20em;
+    width: 25em;
+    border-radius: 0 0 1em 0.5em;
+    background-color: red;
+    border: 5px solid black;
+    border-top: none;
+    
+}
+
+.right__pokeDex__shape {
+    position: absolute;
+    z-index: -1;
+    margin-top: -9em;
+    width: 25em;
+    margin-left: -.3em;
+}
+
+.name__list {
+    margin: 1em;
+    padding: 1em;
+    background-color: black;
+}
+
+li {
+    list-style: none;
+}
+
+/* MIDDELPART ========================= */
+.pokeDex__middlePart {
+    display: flex;
+    align-items: center;
+    width: 2em;
+    height: 34em;
+    margin-bottom: 1em;
+    border: solid 3px black;
+    background-color: red;
+}
+
+.middlepart__secondDiv {
+    height: 30em;
+    width: 100%;
+    margin: 1em 0 1em 0;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
